@@ -1,0 +1,22 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {
+    },
+    "rules": {
+        "no-magic-numbers": false,
+        "no-parameter-reassignment": true,
+        "no-console": {
+            "severity": "error",
+            "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+        },
+        "promise-function-async": true,
+        "no-namespace": false,
+        "max-classes-per-file": false,
+        "no-trailing-whitespace": false
+    },
+    "rulesDirectory": []
+
+}
