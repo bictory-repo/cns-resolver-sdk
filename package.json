@@ -6,6 +6,9 @@
   "types": "build/index.d.ts",
   "author": "Bictory Team <admin@bictory.io>",
   "keywords": ["Bictory", "CNS", "Concordium Name Service", "ENS"],
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "/build"
   ],
