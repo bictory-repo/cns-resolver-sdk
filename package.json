@@ -1,11 +1,16 @@
 {
   "name": "@bictory/cns-resolver",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bictory CNS Resolver SDK",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "author": "Bictory Team <admin@bictory.io>",
-  "keywords": ["Bictory", "CNS", "Concordium Name Service", "ENS"],
+  "keywords": [
+    "Bictory",
+    "CNS",
+    "Concordium Name Service",
+    "ENS"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -32,11 +37,11 @@
     "@types/mocha": "^9.1.1",
     "chai": "^4.3.6",
     "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
     "prettier": "^2.6.2",
     "ts-node": "^10.8.1",
     "tslint": "^6.1.3",
     "typescript": "^4.7.3",
-    "typescript-cli": "^0.1.0",
-    "nyc": "^15.1.0"
+    "typescript-cli": "^0.1.0"
   }
 }
