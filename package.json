@@ -23,6 +23,9 @@
     "prettify": "prettier 'src/**/*.ts' --write",
     "build": "tsc"
   },
+  "repository": {
+    "url": "https://github.com/bictory-repo/cns-resolver-sdk"
+  },
   "dependencies": {
     "bs58check": "^2.1.2"
   },
