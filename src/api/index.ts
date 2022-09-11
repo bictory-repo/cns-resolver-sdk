@@ -92,7 +92,5 @@ export class BictoryCnsApi extends AbstractCnsApi {
         ? Number(appConfig.testnet.resolverSubIndex)
         : Number(appConfig.mainnet.resolverSubIndex);
     this.chainInteractor = ChainInteractor.createWithEnvironment(environment);
-
-    console.log(this.chainInteractor, environment, this.resolverContractIndex, this.resolverContractSubIndex)
   }
 }

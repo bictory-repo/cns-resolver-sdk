@@ -1,11 +1,13 @@
 {
   "name": "@bictory/cns-resolver",
-  "author": "Bictory Team <admin@bictory.io>",
   "version": "0.0.1",
+  "description": "Bictory CNS Resolver SDK",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "author": "Bictory Team <admin@bictory.io>",
+  "keywords": ["Bictory", "CNS", "Concordium Name Service", "ENS"],
   "files": [
-    "/dist"
+    "/build"
   ],
   "scripts": {
     "test": "nyc --reporter=text mocha -r ts-node/register '__tests__/**/*.ts'",
