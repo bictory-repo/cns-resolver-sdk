@@ -9,7 +9,10 @@
     "Bictory",
     "CNS",
     "Concordium Name Service",
-    "ENS"
+    "ENS",
+    "Domain Name",
+    "Blockchain",
+    "Cryptocurrency"
   ],
   "publishConfig": {
     "access": "public"

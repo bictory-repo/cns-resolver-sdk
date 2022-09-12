@@ -30,7 +30,8 @@ const api = new BictoryCnsApi(Environment.TESTNET)
 ```javascript
 import { CnsApi } from '@bictory/cns-resolver';
 
-const api = new CnsApi(<your_node_ip>,  <your_node_port>); 
+// Specify here TESTNET or MAINNET
+const api = new CnsApi(<your_node_ip>,  <your_node_port>, Environment.TESTNET); 
 ```
 
 ## Resolve Method:

@@ -18,8 +18,8 @@ export enum Environment {
 export class ChainInteractor {
   private _client: ConcordiumNodeClient;
 
-  public static create(ip: string, port: number): ChainInteractor {
-    return new ChainInteractor(ip, port);
+  public static create(ip: string, port: number, environment: Environment): ChainInteractor {
+    return new ChainInteractor(ip, port, environment);
   }
 
   public static createWithEnvironment(
