@@ -1,6 +1,6 @@
 {
   "name": "@bictory/cns-resolver",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Bictory CNS Resolver SDK",
   "main": "build/index.js",
   "types": "build/index.d.ts",
