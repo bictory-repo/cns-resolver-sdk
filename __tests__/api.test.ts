@@ -1,7 +1,7 @@
 import {BictoryCnsApi, CnsApi} from '../src/api';
 import {ChainInteractor, Environment} from '../src';
-import { expect } from 'chai';
-import { config } from '../src/config';
+import {expect} from 'chai';
+import {config} from '../src/config';
 
 
 describe('should test api', () => {
@@ -15,7 +15,7 @@ describe('should test api', () => {
     });
 
     it('should test - CnsApi', async () => {
-        const interactor = ChainInteractor.create(config.testnet.nodeIp, config.testnet.nodePort);
+        const interactor = ChainInteractor.create(config.testnet.nodeIp, config.testnet.nodePort, Environment.TESTNET);
 
         const api = new CnsApi(
             interactor,
