@@ -70,8 +70,8 @@ var ChainInteractor = /** @class */ (function () {
             throw new Error("ip or port is not set, please check your configuration again!");
         }
     }
-    ChainInteractor.create = function (ip, port) {
-        return new ChainInteractor(ip, port);
+    ChainInteractor.create = function (ip, port, environment) {
+        return new ChainInteractor(ip, port, environment);
     };
     ChainInteractor.createWithEnvironment = function (environment) {
         return new ChainInteractor(undefined, undefined, environment);

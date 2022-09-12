@@ -10,7 +10,7 @@ export declare class ChainInteractor {
     private readonly port?;
     private readonly environment?;
     private _client;
-    static create(ip: string, port: number): ChainInteractor;
+    static create(ip: string, port: number, environment: Environment): ChainInteractor;
     static createWithEnvironment(environment: Environment): ChainInteractor;
     private constructor();
     get client(): ConcordiumNodeClient;
